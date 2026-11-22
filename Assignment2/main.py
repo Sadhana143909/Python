@@ -16,9 +16,5 @@ def redesigned(n):
 
 for n in [10, 20, 25, 30, 1000]:
     print("Steps:", n)
-
-    if n <= 30:
-        print("Original:", original(n))
-
     print("Redesigned:", redesigned(n))
     print()
